@@ -1,0 +1,223 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-Light.ttf);
+    font-weight: 300;
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+}
+*{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    color: #424242;
+}
+body{
+    width: 70;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+.app_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+.app_logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.app_logo .app_title{
+    margin-right: 3rem;
+}
+
+.app_links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.app_links li a{
+    margin-right: 1.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    color:#424242
+    
+}
+li:hover a{
+    color: #ab4747;
+}
+
+.app_showcase{
+    display: flex;
+    margin: 5rem 0;
+    width: 939;
+}
+
+.app_showcase_info{
+    flex: 4;
+    width: 939;
+}
+
+.app_showcase_image{
+    flex: 6;
+    margin: auto;
+    margin-right: 50%;
+}
+
+.app_showcase_info h1 , h3{
+    font-size: 52px;
+    margin: 0;
+}
+.app_showcase_info h1{
+    color: #D05270;
+    font-weight: bold;
+}
+.app_showcase_info h3{
+    font-weight: 500;
+}
+.app_showcase_info p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.resimler {
+    display: flex;
+    justify-content: center; /* Logoları ve yazıları yatayda ortalar */
+    color: #fff;
+    font-size: 12px;
+    width: 30%;
+    height: 60px;
+    text-decoration: none;
+    margin-left: 12rem;
+ 
+}
+
+.resimler .resim {
+   
+}
+
+.resimler .resimtw {
+    background-color: #47ACDF;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-right: 6rem;
+    text-align: center;
+    margin-left: 10rem;
+    color: #fff;
+}
+
+.resimler .resimlk {
+    background-color: #1275B1;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-right: 6rem;
+    text-align: center;
+    color: #fff;
+
+}
+
+.resimler .resimmd {
+    background-color: #000;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-right: 0rem;
+    text-align: center;
+    color: #fff;
+
+}
+
+.app_showcase_image {
+    margin-right: 50%;
+}
+
+.app_blog_categories{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.app_blog_categories .item{
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+.app_blog_categories .item:hover{
+    color: #ab4747;
+}
+
+.app_post_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.app_post_list .app_post_card{
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+    padding: 0 2rem;
+    margin: 3rem 0;
+}
+.app_post_list .app_post_card .post_image{
+    height: 400px;
+    width: max-content;
+}
+
+.app_post_list .app_post_card .post_date{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.app_post_list .app_post_card .post_tittle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #D05270;
+    margin: 0.5rem 0;
+}
+
+.app_post_list .app_post_card .post_info{
+    font-weight: 400;
+    margin: 0.5rem 0;
+
+}
+
+.app_post_list .app_post_card .post_link{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #D05270;
+    border-bottom: 1px solid #D05270;
+    padding-bottom: 0.5rem;
+    width: fit-content;
+    margin-top: 2rem;
+}
+
+.footer{
+    position: relative;
+    text-align: center;
+    margin: 5rem 0;
+}
